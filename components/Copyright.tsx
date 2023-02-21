@@ -2,7 +2,7 @@ import MuiLink from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 
-export default function Copyright() {
+export default function Copyright(): JSX.Element {
   return (
     <Typography variant='body2' color='text.secondary' align='center'>
       {'Copyright © '}
