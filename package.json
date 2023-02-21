@@ -11,8 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix --max-warnings=0",
-    "prettier": "prettier --write .",
+    "lint:fix": "next lint --fix",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -31,6 +30,8 @@
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "eslint-config-prettier": "^8.6.0",

@@ -9,10 +9,12 @@
     "next",
     "next/core-web-vitals",
     "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": ["simple-import-sort", "import"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["simple-import-sort", "import", "@typescript-eslint"],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
@@ -26,6 +28,10 @@
     "prettier/prettier": "error",
 
     "react/prop-types": "off",
-    "no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/ban-ts-comment": "warn"
+
+    // "@typescript-eslint/explicit-module-boundary-types": "off",
+    // "@typescript-eslint/no-empty-function": "off"
   }
 }

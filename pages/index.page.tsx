@@ -9,6 +9,8 @@ import Link from '@/components/Link';
 import ProTip from '@/components/ProTip';
 
 export default function Home() {
+  // const n = 33;
+
   return (
     <>
       <Head>
@@ -28,13 +30,11 @@ export default function Home() {
             Material UI - Next.js example in TypeScript
           </Typography>
           <Link href='/about' color='secondary'>
-            Go to the about page
+            wfwegweiuwegiwhgoweighweo;ghw;gow
           </Link>
           <ProTip />
           <Copyright />
         </Box>
-
-        <p>ejgiergbeirughepiguhepguehgpoerghpgegpoegpeigoeirgberi</p>
       </Container>
     </>
   );
