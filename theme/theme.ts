@@ -1,11 +1,14 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material';
 
-import { palette, typography } from '@/theme/foundations';
+// import { components } from '@/theme/components';
+import { foundations } from '@/theme/foundations';
 
 // Create a theme instance.
 const theme = createTheme({
-  palette,
-  typography,
+  ...foundations,
+  // components: {
+  //   ...components,
+  // },
 });
 
 export default theme;
