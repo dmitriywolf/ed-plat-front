@@ -3,14 +3,14 @@ import Head from 'next/head';
 
 import PageContainer from '@/components/UI/PageContainer';
 
-export default function LoginPage() {
+export default function InstructorsPage() {
   return (
     <>
       <Head>
-        <title>Education App: Login</title>
+        <title>Instructors</title>
       </Head>
       <PageContainer>
-        <Container>Login page</Container>
+        <Container>Instructors page</Container>
       </PageContainer>
     </>
   );

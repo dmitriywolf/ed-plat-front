@@ -1,13 +1,13 @@
 import { PATHS } from '@/common/constants';
 
-export const ROUTES = [
+export const MAIN_ROUTES = [
   {
     path: PATHS.courses,
     title: 'Courses',
   },
   {
-    path: PATHS.teachers,
-    title: 'Teachers',
+    path: PATHS.instructors,
+    title: 'Instructors',
   },
   {
     path: PATHS.blog,

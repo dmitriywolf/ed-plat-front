@@ -3,6 +3,6 @@ export const PATHS = {
   login: '/login',
   signup: '/signup',
   courses: '/courses',
-  teachers: '/teachers',
+  instructors: '/instructors',
   blog: '/blog',
 };

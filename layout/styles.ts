@@ -1,6 +1,4 @@
-const main = {
-  paddingTop: '100px',
-};
+const main = {};
 
 const classes = { main };
 

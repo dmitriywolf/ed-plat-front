@@ -3,11 +3,13 @@ import { Inter } from '@next/font/google';
 declare module '@mui/material/styles' {
   interface TypographyVariants {
     introTitle: React.CSSProperties;
+    link: React.CSSProperties;
   }
 
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
     introTitle?: React.CSSProperties;
+    link?: React.CSSProperties;
   }
 }
 
@@ -15,6 +17,7 @@ declare module '@mui/material/styles' {
 declare module '@mui/material/Typography' {
   interface TypographyPropsVariantOverrides {
     introTitle: true;
+    link: true;
   }
 }
 
@@ -43,5 +46,8 @@ export const typography = {
     fontSize: '4rem',
     lineHeight: 1.25,
     fontWeight: 700,
+  },
+  link: {
+    fontWeight: 500,
   },
 };

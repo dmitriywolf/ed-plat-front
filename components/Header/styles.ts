@@ -7,6 +7,12 @@ const header = {
   height: '100px',
 };
 
-const classes = { header };
+const headerInner = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+};
+
+const classes = { header, headerInner };
 
 export default classes;

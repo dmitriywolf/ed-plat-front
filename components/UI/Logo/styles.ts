@@ -2,9 +2,9 @@ import { Theme } from '@mui/material';
 
 const logoWrap = {
   display: 'flex',
-  maxWidth: '160px',
+  maxWidth: 160,
   alignItems: 'center',
-  gap: '10px',
+  gap: 1.25,
   cursor: 'pointer',
   color: (theme: Theme) => theme.palette.text.primary,
   '&:hover': {
@@ -14,7 +14,7 @@ const logoWrap = {
 
 const logoTitle = {
   fontSize: '1.25rem',
-  fontWeight: 'bold',
+  fontWeight: 700,
   lineHeight: 1.2,
 };
 
