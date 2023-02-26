@@ -1,13 +1,14 @@
-import { Box } from '@mui/material';
+import Box from '@mui/material/Box';
 import type { ReactNode } from 'react';
 
-import { Footer, Header } from '@/components';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 import classes from './styles';
 
 type LayoutProps = { children?: ReactNode };
 
-export const Layout = (props: LayoutProps) => {
+const Layout = (props: LayoutProps) => {
   return (
     <>
       <Header />
@@ -18,3 +19,5 @@ export const Layout = (props: LayoutProps) => {
     </>
   );
 };
+
+export default Layout;

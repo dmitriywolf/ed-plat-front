@@ -1,11 +1,11 @@
-import { Box, Container } from '@mui/material';
-import React from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
-import { Logo } from '@/components/UI';
+import Logo from '@/components/UI/Logo';
 
 import classes from './styles';
 
-export const Header = () => {
+const Header = () => {
   return (
     <Box component='header' sx={classes.header}>
       <Container>
@@ -16,3 +16,5 @@ export const Header = () => {
     </Box>
   );
 };
+
+export default Header;

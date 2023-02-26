@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Intro } from '@/components';
+import Intro from '@/components/Intro';
 
 export default function Home() {
   // const n = 33;

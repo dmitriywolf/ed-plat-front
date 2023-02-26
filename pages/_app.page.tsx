@@ -8,7 +8,7 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import type { ReactElement, ReactNode } from 'react';
 
-import { Layout } from '@/layout';
+import Layout from '@/layout';
 import createEmotionCache from '@/theme/createEmotionCache';
 import theme from '@/theme/theme';
 

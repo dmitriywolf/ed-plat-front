@@ -8,7 +8,7 @@ const logoWrap = {
   cursor: 'pointer',
   color: (theme: Theme) => theme.palette.text.primary,
   '&:hover': {
-    color: (theme: Theme) => theme.palette.link.dark,
+    color: (theme: Theme) => theme.palette.link.main,
   },
 };
 

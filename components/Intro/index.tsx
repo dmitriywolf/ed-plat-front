@@ -1,6 +1,7 @@
-import { Box, Typography } from '@mui/material';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
-export const Intro = () => {
+const Intro = () => {
   return (
     <Box component='section'>
       <Typography component='h1' variant='introTitle'>
@@ -9,3 +10,5 @@ export const Intro = () => {
     </Box>
   );
 };
+
+export default Intro;
